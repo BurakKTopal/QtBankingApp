@@ -1,0 +1,27 @@
+# ninja log v5
+4	3518	7317222292865428	BankingApp_autogen/timestamp	c70b67fc72e2c861
+4	3518	7317222292865428	BankingApp_autogen/mocs_compilation.cpp	c70b67fc72e2c861
+4	3518	7317222292865428	C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_build/BankingApp_autogen/timestamp	c70b67fc72e2c861
+4	3518	7317222292865428	C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_build/BankingApp_autogen/mocs_compilation.cpp	c70b67fc72e2c861
+3625	5179	7317222310305257	CMakeFiles/BankingApp.dir/ClientActions.cpp.obj	a08ec7785364fb2c
+3535	9036	7317222349245217	CMakeFiles/BankingApp.dir/main.cpp.obj	9b1d9da6dcab45c4
+3635	9696	7317222356077437	CMakeFiles/BankingApp.dir/accountdetails.cpp.obj	6f290431c41e08b0
+3519	9877	7317222357627656	CMakeFiles/BankingApp.dir/BankingApp_autogen/mocs_compilation.cpp.obj	956ba29aa501296
+3687	9982	7317222359063888	CMakeFiles/BankingApp.dir/network.cpp.obj	679404bb89f05ad
+3582	11561	7317222374249016	CMakeFiles/BankingApp.dir/withdrawmoney.cpp.obj	ee71c4f209ec88f2
+3655	11926	7317222378207385	CMakeFiles/BankingApp.dir/transfermoneytootheraccount.cpp.obj	2b007d32261fb200
+3615	12429	7317222383497096	CMakeFiles/BankingApp.dir/depositmoney.cpp.obj	de535de0a6c44b5e
+3549	12573	7317222384843217	CMakeFiles/BankingApp.dir/createaccount.cpp.obj	8b9642eaf5713be5
+3564	13727	7317222396518499	CMakeFiles/BankingApp.dir/mainwindow.cpp.obj	8b03e1764c015c6
+13728	15423	7317222411663639	BankingApp.exe	3c0229a503fe8c0d
+7	230	7317234627008693	BankingApp_autogen/timestamp	c70b67fc72e2c861
+7	230	7317234627008693	BankingApp_autogen/mocs_compilation.cpp	c70b67fc72e2c861
+7	230	7317234627008693	C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_build/BankingApp_autogen/timestamp	c70b67fc72e2c861
+7	230	7317234627008693	C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_build/BankingApp_autogen/mocs_compilation.cpp	c70b67fc72e2c861
+259	2927	7317234653946176	CMakeFiles/BankingApp.dir/depositmoney.cpp.obj	de535de0a6c44b5e
+266	2981	7317234654501239	CMakeFiles/BankingApp.dir/withdrawmoney.cpp.obj	ee71c4f209ec88f2
+252	3006	7317234654752073	CMakeFiles/BankingApp.dir/createaccount.cpp.obj	8b9642eaf5713be5
+281	3033	7317234655030545	CMakeFiles/BankingApp.dir/transfermoneytootheraccount.cpp.obj	2b007d32261fb200
+273	3098	7317234655679869	CMakeFiles/BankingApp.dir/accountdetails.cpp.obj	6f290431c41e08b0
+243	3623	7317234660928445	CMakeFiles/BankingApp.dir/mainwindow.cpp.obj	8b03e1764c015c6
+3624	4063	7317234665282833	BankingApp.exe	3c0229a503fe8c0d

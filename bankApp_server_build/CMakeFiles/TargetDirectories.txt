@@ -1,0 +1,9 @@
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/BankingApp_server.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/edit_cache.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/rebuild_cache.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/list_install_components.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/install.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/install/local.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/install/strip.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/BankingApp_server_autogen_timestamp_deps.dir
+C:/Users/Burak/OneDrive/Bureaublad/Programmeren/C++/Qt/bankAppFinal/bankApp_server_build/CMakeFiles/BankingApp_server_autogen.dir
