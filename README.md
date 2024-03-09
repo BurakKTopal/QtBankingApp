@@ -3,8 +3,8 @@
 ## Explanation of folders
 The folders containing the code are:
 <ol>
-  <il>/BankingApp: contains the files to configure the client side of the application.</il>
-  <il>/BankingApp_server: contains the files to configure the server side of the application.</il>
+  <li>/BankingApp: contains the files to configure the client side of the application.</il>
+  <li>/BankingApp_server: contains the files to configure the server side of the application.</il>
 </ol>
 
 The CMAKE builds of these folders are given by:
