@@ -13,7 +13,7 @@ The CMAKE builds of these folders are given by:
   <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/bankApp_server_build">/bankApp_server_build</a>: the CMAKE build of the server side.</li>
 </ol>
 
-Finally, the standalone applications, together with their configurations can be found in /Executables. This folder
+Finally, the standalone applications, together with their configurations can be found in <a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/Executables">/Executables</a>. This folder
 contains:
 <ol>
   <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/Executables/Client">/Client</a>: The folder containing <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Client/BankingApp.exe">BankingApp.exe</a>: this is the standalone executable for the client.</li>
