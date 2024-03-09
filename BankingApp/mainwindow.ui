@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #4a4a4a;
+}
+
+QStackedWidget {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+QPushButton {
+background-color: gray;
+border-radius: 10px;
+color:lightblue;
+}
+
+QFormLayout{
+background-color: lightgray;
+}
+QLabel#label_main_menu,
+QLabel#label_transfers,
+QLabel#label_withdrawal_deposit {
+    font: 20pt &quot;Arial&quot;;
+    color: lightyellow;
+}
+
+QLabel {
+color:lightblue;
+font-family: Arial;
+font-size: 12pt;
+}
+
+QLineEdit {
+font-family: Arial;
+font-size: 10pt;
+background-color: lightgray;	
+border: 1px solid white;
+border-radius: 10px;
+}
+
+QTableView {
+    background-color: #2e2e2e;
+    color:lightblue;
+border-radius: 10px;
+}
+
+QHeaderView::section {
+    background-color: #1f1f1f;
+	color:lightblue;
+}
+
+QTableView::item {
+    border: 1px solid #3a3a3a;
+}
+
+QTableView::item:selected {
+    background-color: #4a4a4a;
+	color:lightblue;
+ 	gridline-color: gray
+}
+QHeaderView:vertical {
+    background-color: #1f1f1f;
+	color:lightblue;
+    border: 1px solid #3a3a3a;
+}
+
+QTabWidget {
+    background-color: gray; /* Dark background color for the entire QTabWidget */
+    color: #ffffff; /* Text color for the tabs */
+}
+
+QTabBar::tab {
+    background-color: #1f1f1f; /* Background color for individual tabs */
+    border: 1px solid #444444; /* Border color for individual tabs */
+    border-radius: 5px; /* Rounded corners for individual tabs */
+    min-width: 100px; /* Minimum width for tabs */
+    padding: 5px; /* Padding for tabs */
+	color:lightyellow;
+	font-size: 12pt;
+}
+
+QTabBar::tab:selected {
+    background-color: rgb(88, 88, 88);/* Background color for the selected tab */
+}
+
+QTabWidget::pane {
+    border: 1px solid #444444; /* Border color for the tab content area */
+    border-top: none; /* Remove top border to align with the selected tab */
+}
+
+QHBoxLayout{
+border-radius: 10px;
+border:1px;
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>1121</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_login">
+     <widget class="QPushButton" name="btn_sign_up">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sign up</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_login">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Log in</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>240</y>
+        <width>481</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>15</pointsize>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 15pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Bank number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>15</pointsize>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 15pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Password</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="txt_password">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="txt_account_number">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>180</y>
+        <width>391</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+        <pointsize>16</pointsize>
+        <italic>false</italic>
+        <fontweight>Black</fontweight>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 16pt &quot;Segoe UI Black&quot;;
+color:#999900;</string>
+      </property>
+      <property name="text">
+       <string>Welcome to B-TOP Banking!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>300</y>
+        <width>101</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../BankingAppImages/Logo_Def.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_password_forgot">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>360</y>
+        <width>371</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Forgot Password?</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_main_page">
+     <widget class="QPushButton" name="btn_account_details">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>510</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Account details</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>1081</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <attribute name="title">
+        <string>Transfers</string>
+       </attribute>
+       <widget class="QTableView" name="table_transfers">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>1061</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_deposit_to_other_acount">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>10</y>
+          <width>541</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Deposit money to another account</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_refresh_transfers">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>511</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Refresh Transfers</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Withdrawals and deposits</string>
+       </attribute>
+       <widget class="QTableView" name="table_withdrawals_N_deposit">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>1061</width>
+          <height>271</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_deposit_money">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>10</y>
+          <width>541</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Deposit Money</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_withdraw_money">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>511</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Withdraw Money</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>60</y>
+        <width>101</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../BankingAppImages/Logo_Def.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>330</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_account_number">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>10</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 20pt &quot;Segoe UI Black&quot;;
+color:#999900;</string>
+      </property>
+      <property name="text">
+       <string>B-TOP Banking</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>0</y>
+        <width>331</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_name">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btn_log_out">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>510</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_contact_us">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>510</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Contact Us</string>
+      </property>
+     </widget>
+     <zorder>btn_account_details</zorder>
+     <zorder>tabWidget</zorder>
+     <zorder>horizontalLayoutWidget</zorder>
+     <zorder>label_10</zorder>
+     <zorder>horizontalLayoutWidget_2</zorder>
+     <zorder>btn_log_out</zorder>
+     <zorder>label_5</zorder>
+     <zorder>btn_contact_us</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1122</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

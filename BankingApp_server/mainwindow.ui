@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #4a4a4a;
+}
+
+QStackedWidget {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+QPushButton {
+background-color: gray;
+border-radius: 10px;
+color:lightblue;
+}
+
+QFormLayout{
+background-color: lightgray;
+}
+QLabel#label_main_menu,
+QLabel#label_transfers,
+QLabel#label_withdrawal_deposit {
+    font: 20pt &quot;Arial&quot;;
+    color: lightyellow;
+}
+
+QLabel {
+color:lightblue;
+font-family: Arial;
+font-size: 12pt;
+}
+
+QLineEdit {
+font-family: Arial;
+font-size: 10pt;
+background-color: lightgray;	
+border: 1px solid white;
+border-radius: 10px;
+}
+
+QTableView {
+    background-color: #2e2e2e;
+    color:lightblue;
+border-radius: 10px;
+}
+
+QHeaderView::section {
+    background-color: #1f1f1f;
+	color:lightblue;
+}
+
+QTableView::item {
+    border: 1px solid #3a3a3a;
+}
+
+QTableView::item:selected {
+    background-color: #4a4a4a;
+	color:lightblue;
+ 	gridline-color: gray
+}
+QHeaderView:vertical {
+    background-color: #1f1f1f;
+	color:lightblue;
+    border: 1px solid #3a3a3a;
+}
+
+QTabWidget {
+    background-color: gray; /* Dark background color for the entire QTabWidget */
+    color: #ffffff; /* Text color for the tabs */
+}
+
+QTabBar::tab {
+    background-color: #1f1f1f; /* Background color for individual tabs */
+    border: 1px solid #444444; /* Border color for individual tabs */
+    border-radius: 5px; /* Rounded corners for individual tabs */
+    min-width: 100px; /* Minimum width for tabs */
+    padding: 5px; /* Padding for tabs */
+	color:lightyellow;
+	font-size: 12pt;
+}
+
+QTabBar::tab:selected {
+    background-color: rgb(88, 88, 88);/* Background color for the selected tab */
+}
+
+QTabWidget::pane {
+    border: 1px solid #444444; /* Border color for the tab content area */
+    border-top: none; /* Remove top border to align with the selected tab */
+}
+
+QHBoxLayout{
+border-radius: 10px;
+border:1px;
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status server</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_status_server">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startServerButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start server</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_status_client">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>70</y>
+      <width>113</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status client</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
