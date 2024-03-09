@@ -43,4 +43,3 @@ to the other is being held by the "client_transfer" table.
 
 ## Author
 Burak Kucuktopal
-\
