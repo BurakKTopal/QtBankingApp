@@ -3,28 +3,28 @@
 ## Explanation of folders
 The folders containing the code are:
 <ol>
-  <li>/BankingApp: contains the files to configure the client side of the application.</il>
-  <li>/BankingApp_server: contains the files to configure the server side of the application.</il>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/BankingApp">/BankingApp</a>: contains the files to configure the client side of the application.</il>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/BankingApp_server">/BankingApp_server</a>: contains the files to configure the server side of the application.</il>
 </ol>
 
 The CMAKE builds of these folders are given by:
 <ol>
-  <li>/bankApp_build: the CMAKE build of the client side.</li>
-  <li>/bankApp_server_build: the CMAKE build of the server side.</li>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/bankApp_build">/bankApp_build</a>: the CMAKE build of the client side.</li>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/bankApp_server_build">/bankApp_server_build</a>: the CMAKE build of the server side.</li>
 </ol>
 
 Finally, the standalone applications, together with their configurations can be found in /Executables. This folder
 contains:
 <ol>
-  <li>/Client: The folder containing BankingApp.exe: this is the standalone executable for the client.</li>
-  <li>/Server: The folder containing BankingApp_server.exe: this is the standalone executable for the server.</li>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/Executables/Client">/Client</a>: The folder containing <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Client/BankingApp.exe">BankingApp.exe</a>: this is the standalone executable for the client.</li>
+  <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/Executables/Server">/Server</a>: The folder containing <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/BankingApp_server.exe">BankingApp_server.exe</a>: this is the standalone executable for the server.</li>
 </ol>
 
 
 ## Usage, test users
 <p>
-The use of BankingApp.exe and BankingApp_server.exe are pretty straightforward. The users are contained in the Sqlite3 file
-ClientData.db. This DB is managed by the server and contains all users in the table "client". The transfers being made from one account 
+The use of <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Client/BankingApp.exe">BankingApp.exe</a> and <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/BankingApp_server.exe">BankingApp_server.exe</a> are pretty straightforward. The users are contained in the Sqlite3 file
+<a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/ClientData.db">ClientData.db</a>. This DB is managed by the server and contains all users in the table "client". The transfers being made from one account 
 to the other is being held by the "client_transfer" table.
 </p>
 
