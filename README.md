@@ -34,7 +34,8 @@ contains:
 
 <p>There can be withdrawals, and deposits being made. For each one, this will be saved and placed in a table:</p>
 
-![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/daeb514f-04f0-4caa-a95a-1226ccc2f1da)
+![DepositWitdrawal](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/bbb83e22-7908-41e9-931f-0445bda970fe)
+
 
 
 <p>There is also the possibility to transfer to other accounts. As a result, one can also look into the tansfers he made to others, as well the transfers he received:</p>
