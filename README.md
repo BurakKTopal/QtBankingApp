@@ -32,9 +32,14 @@ contains:
 
 ![CreatingAccountPanel](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/8ad1b1ee-96de-4712-8cac-1a17c41ddc62)
 
+<p>There can be withdrawals, and deposits being made. For each one, this will be saved and placed in a table:</p>
+
+![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/daeb514f-04f0-4caa-a95a-1226ccc2f1da)
+
+
 <p>There is also the possibility to transfer to other accounts. As a result, one can also look into the tansfers he made to others, as well the transfers he received:</p>
 
-![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/ee436f43-5be3-418e-9299-1ca5a18758bc)
+![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/bfbc064d-9722-41b9-b2a1-15dc4639d301)
 
 ## Test Users
 <p>
