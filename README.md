@@ -22,15 +22,18 @@ contains:
 
 ## Style, frontend
 <p>The login page of the bank:</p>
+
 ![LoginPanel](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/69b38091-bfa3-4db8-a154-a18609bc75bd)
 
 
 
 
 <p>To create an account, the panel is as follows:</p>
+
 ![CreatingAccountPanel](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/8ad1b1ee-96de-4712-8cac-1a17c41ddc62)
 
 <p>There is also the possibility to transfer to other accounts. As a result, one can also look into the tansfers he made to others, as well the transfers he received:</p>
+
 ![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/ee436f43-5be3-418e-9299-1ca5a18758bc)
 
 ## Test Users
