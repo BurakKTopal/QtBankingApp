@@ -20,8 +20,20 @@ contains:
   <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/Executables/Server">/Server</a>: The folder containing <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/BankingApp_server.exe">BankingApp_server.exe</a>: this is the standalone executable for the server.</li>
 </ol>
 
+## Style, frontend
+<p>The login page of the bank:</p>
+![LoginPanel](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/69b38091-bfa3-4db8-a154-a18609bc75bd)
 
-## Usage, test users
+
+
+
+<p>To create an account, the panel is as follows:</p>
+![CreatingAccountPanel](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/8ad1b1ee-96de-4712-8cac-1a17c41ddc62)
+
+<p>There is also the possibility to transfer to other accounts. As a result, one can also look into the tansfers he made to others, as well the transfers he received:</p>
+![Transfers](https://github.com/BurakKTopal/QtBankingApp/assets/131784330/ee436f43-5be3-418e-9299-1ca5a18758bc)
+
+## Test Users
 <p>
 The use of <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Client/BankingApp.exe">BankingApp.exe</a> and <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/BankingApp_server.exe">BankingApp_server.exe</a> are pretty straightforward. The users are contained in the Sqlite3 file
 <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/Executables/Server/ClientData.db">ClientData.db</a>. This DB is managed by the server and contains all users in the table "client". The transfers being made from one account 
