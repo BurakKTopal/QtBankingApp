@@ -7,7 +7,7 @@ The folders containing the code are:
   <li><a href="https://github.com/BurakKTopal/QtBankingApp/tree/master/BankingApp_server">/BankingApp_server</a>: contains the files to configure the server side of the application.</il>
 </ol>
 
-!Important
+### Database configuration(Important!)
 <p>
   After you build the projects, put the <a href="https://github.com/BurakKTopal/QtBankingApp/blob/master/ClientData.db">ClientData.db</a> in the server one. Without this, there will be no database presence. 
 </p>
