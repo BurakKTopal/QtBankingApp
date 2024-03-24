@@ -1,4 +1,4 @@
-# Banking App in C++ supporting multiple clients on LocalHost
+# Banking App in C++ supporting multiple clients on local host
 
 ## Explanation of folders
 The folders containing the code are:
